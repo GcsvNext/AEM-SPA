@@ -1,0 +1,9 @@
+{
+    "getContentPathPattern": "/content/mysite-spa/(.*)|/conf/mysite-spa/(.*)/settings/wcm/templates/(.*)",
+    "getRemoteHTMLRendererUrl" : "http://localhost:3233/api/v1/web/guest/mysite-spa-0.1.0/ssr",
+    "getRequestTimeout": 10000,
+    "getAdditionalRequestHeaders": [
+
+    ],
+    "getCompression": "none"
+}
